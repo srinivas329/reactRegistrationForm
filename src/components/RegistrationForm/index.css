@@ -1,0 +1,71 @@
+/* Write your CSS code here */
+.bg-container {
+  background-color: white;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 30%;
+  padding: 50px;
+  border-radius: 10px;
+}
+.card1 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  width: 30%;
+  padding: 50px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.png {
+  width: 80px;
+  height: 80px;
+  margin: auto;
+}
+.another-btn {
+  background-color: #ea580c;
+  color: white;
+  border-radius: 7px;
+  outline: none;
+  border-width: 0px;
+  width: fit-content;
+  height: 30px;
+  cursor: pointer;
+  margin: auto;
+}
+.heading {
+  color: #ea580c;
+  font-weight: 600;
+  font-family: roboto;
+}
+.error {
+  color: #ff0b37;
+  margin: 0px;
+  font-size: 12px;
+}
+.input {
+  background-color: transparent;
+  height: 30px;
+  border-radius: 5px;
+  border-width: 1px;
+}
+
+.input2 {
+  background-color: #fef2f4;
+  height: 30px;
+  border-color: #ff0b37;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+}
